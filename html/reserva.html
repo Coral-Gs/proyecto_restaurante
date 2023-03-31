@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="nombre" content="Restaurante Ikigai" />
+    <meta name="description" content="Restaurante asiático fusión" />
+    <meta name="author" content="Coral Gutiérrez" />
+    <meta
+      name="keywords"
+      content="restaurante asiático, sushi, gastronomía japonesa"
+    />
+    <title>Reserva</title>
+  </head>
+  <body>
+    <div align="middle">
+      <br />
+      <h1>Restaurante Ikigai</h1>
+      <img
+        src="../img/ikigaikanjis.png"
+        alt="Ikigai kanjis"
+        width="80"
+        heigth="5"
+      />
+      <div>
+        <h3>
+          <a href="../index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="./menu.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="./reserva.html">Reservas</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="./evento.html">Eventos</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="./contacto.html">Contacto</a>
+        </h3>
+      </div>
+      <hr size="6px" color="black" />
+      <br />
+      <div align="center">
+        <br />
+        <table>
+          <tr>
+            <td width="300" align="right">
+              <form>
+                <label for="nombre">Nombre: </label>
+                <input name="nombre" type="text" />
+                <br />
+                <br />
+                <label for="apellido">Apellido: </label>
+                <input name="apellido" type="text" />
+                <br />
+                <br />
+                <form>
+                  <label for="lang">Fecha</label>
+                  <select name="dia">
+                    <option>día</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                  </select>
+
+                  <select name="mes">
+                    <option>mes</option>
+                    <option>enero</option>
+                    <option>febrero</option>
+                    <option>marzo</option>
+                    <option>abril</option>
+                    <option>mayo</option>
+                    <option>junio</option>
+                    <option>julio</option>
+                    <option>agosto</option>
+                    <option>septiembre</option>
+                    <option>octubre</option>
+                    <option>noviembre</option>
+                    <option>diciembre</option>
+                  </select>
+
+                  <select name="hora">
+                    <option>hora</option>
+                    <option>13:00</option>
+                    <option>13:15</option>
+                    <option>13:30</option>
+                    <option>13:45</option>
+                    <option>14:00</option>
+                    <option>14:15</option>
+                    <option>14:30</option>
+                    <option>14:45</option>
+                    <option>15:00</option>
+                    <option>20:30</option>
+                    <option>20:45</option>
+                    <option>21:00</option>
+                    <option>21:15</option>
+                    <option>21:30</option>
+                    <option>21:45</option>
+                    <option>22:00</option>
+                    <option>22:15</option>
+                    <option>22:30</option>
+                  </select>
+                </form>
+                <br />
+                <label for="nPersonas">N. comensales: </label>
+                <input name="nPersonas" type="number" />
+                <br />
+                <br />
+                <label for="nTarjeta">N. Tarjeta: </label>
+                <input name="ntarjeta" type="text" />
+                <br />
+                <br />
+                <textarea name="comentario" cols="25" rows="5">
+ Comentario...</textarea
+                >
+                <br />
+                <br />
+                <label for="parking">Parking</label>
+                <input name="parking" type="checkbox" value="conparking" />
+                <br />
+                <br />
+                <label for="salón">Salón</label>
+                <input name="lugar" type="radio" value="salón" />
+                <label for="terraza">Terraza</label>
+                <input name="lugar" type="radio" value="terraza" />
+                <br />
+                <br />
+                <input name="submitInfo" type="submit" value="Enviar" />
+                <input name="resetInfo" type="reset" value="Borrar" />
+                <br />
+                <br />
+              </form>
+            </td>
+            <td width="50"></td>
+            <!--He dejado una columa para un espacio en blanco pero usando grids de Bootstrap se solucionaría mejor-->
+            <td align="left">
+              <img
+                src="../img/ReservaMesa.png"
+                width="420"
+                heigth="100"
+                alt="Foto Restaurante Ikigai Reservas"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
