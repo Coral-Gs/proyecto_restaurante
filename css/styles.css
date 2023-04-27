@@ -1,0 +1,121 @@
+body {
+  background-image: url("../img/fondo.avif");
+}
+
+h1 {
+  color: #4b3c24;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 320%;
+  font-weight: bold;
+  margin: 3% 1% 1% 2%;
+}
+
+h3 {
+  margin: 0% 2% 3% 2%;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 120%;
+  margin: 30px;
+  text-align: justify;
+}
+
+footer {
+  margin: 0% 0% 4% 0%;
+}
+
+.container-fluid {
+  text-align: center;
+}
+.menu {
+  color: #d8670d;
+}
+.menu:hover {
+  color: #4b3c24;
+  font-size: 120%;
+  text-decoration: none;
+}
+
+#imgkanji {
+  margin: 0% 0% 2% 0%;
+}
+
+#fotoprincipal {
+  margin: 1% 0 0 0;
+}
+#boton-volver {
+  background-color: #d8670d;
+  border-color: #d8670d;
+  font-size: 120%;
+  opacity: 1;
+  transition: 0.3s;
+}
+#boton-volver:hover {
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 991px) {
+  #uno {
+    background-color: lawngreen;
+  }
+  #dos {
+    background-color: red;
+  }
+  #tres {
+    background-color: red;
+  }
+  #cuatro {
+    background-color: red;
+  }
+  #cinco {
+    background-color: yellow;
+  }
+  #seis {
+    background-color: yellow;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #uno {
+    background-color: turquoise;
+  }
+  #dos {
+    background-color: red;
+  }
+  #tres {
+    background-color: red;
+  }
+  #cuatro {
+    background-color: lawngreen;
+  }
+  #cinco {
+    background-color: yellow;
+  }
+  #seis {
+    background-color: yellow;
+  }
+}
+
+@media screen and (max-width: 768.98px) {
+  #uno {
+    background-color: salmon;
+  }
+  #dos {
+    background-color: red;
+  }
+  #tres {
+    background-color: turquoise;
+  }
+  #cuatro {
+    background-color: red;
+  }
+  #cinco {
+    background-color: yellow;
+  }
+  #seis {
+    background-color: yellow;
+  }
+}
