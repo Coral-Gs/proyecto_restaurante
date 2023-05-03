@@ -16,176 +16,172 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
-    <title>Reserva</title>
+    <link rel="stylesheet" href="../css/styles.css" type="text/css" />
+    <title>Reservas</title>
   </head>
   <body>
-    <div align="middle">
-      <br />
-      <h1>Restaurante Ikigai</h1>
-      <img
-        src="../img/ikigaikanjis.png"
-        alt="Ikigai kanjis"
-        width="80"
-        heigth="5"
-      />
-      <div>
-        <h3>
-          <a href="../index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="./menu.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="./reserva.html">Reservas</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="./evento.html">Eventos</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="./contacto.html">Contacto</a>
-        </h3>
-      </div>
-      <hr size="6px" color="black" />
-      <br />
-      <div align="center">
-        <br />
-        <table>
-          <tr>
-            <td width="300" align="right">
-              <form>
-                <label for="nombre">Nombre: </label>
-                <input name="nombre" type="text" />
-                <br />
-                <br />
-                <label for="apellido">Apellido: </label>
-                <input name="apellido" type="text" />
-                <br />
-                <br />
-
-                <label for="lang">Fecha</label>
-                <select name="dia">
-                  <option>día</option>
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                  <option>6</option>
-                  <option>7</option>
-                  <option>8</option>
-                  <option>9</option>
-                  <option>10</option>
-                  <option>11</option>
-                  <option>12</option>
-                  <option>13</option>
-                  <option>14</option>
-                  <option>15</option>
-                  <option>16</option>
-                  <option>17</option>
-                  <option>18</option>
-                  <option>19</option>
-                  <option>20</option>
-                  <option>21</option>
-                  <option>22</option>
-                  <option>23</option>
-                  <option>24</option>
-                  <option>25</option>
-                  <option>26</option>
-                  <option>27</option>
-                  <option>28</option>
-                  <option>29</option>
-                  <option>30</option>
-                  <option>31</option>
-                </select>
-
-                <select name="mes">
-                  <option>mes</option>
-                  <option>enero</option>
-                  <option>febrero</option>
-                  <option>marzo</option>
-                  <option>abril</option>
-                  <option>mayo</option>
-                  <option>junio</option>
-                  <option>julio</option>
-                  <option>agosto</option>
-                  <option>septiembre</option>
-                  <option>octubre</option>
-                  <option>noviembre</option>
-                  <option>diciembre</option>
-                </select>
-
-                <select name="hora">
-                  <option>hora</option>
-                  <option>13:00</option>
-                  <option>13:15</option>
-                  <option>13:30</option>
-                  <option>13:45</option>
-                  <option>14:00</option>
-                  <option>14:15</option>
-                  <option>14:30</option>
-                  <option>14:45</option>
-                  <option>15:00</option>
-                  <option>20:30</option>
-                  <option>20:45</option>
-                  <option>21:00</option>
-                  <option>21:15</option>
-                  <option>21:30</option>
-                  <option>21:45</option>
-                  <option>22:00</option>
-                  <option>22:15</option>
-                  <option>22:30</option>
-                </select>
-                <br />
-                <br />
-                <label for="nPersonas">N. comensales: </label>
-                <input name="nPersonas" type="number" />
-                <br />
-                <br />
-                <label for="nTarjeta">N. Tarjeta: </label>
-                <input name="ntarjeta" type="number" />
-                <br />
-                <br />
-                <textarea name="comentario" cols="25" rows="5">
- Comentario...</textarea
-                >
-                <br />
-                <br />
-                <label for="parking">Parking</label>
-                <input name="parking" type="checkbox" value="conparking" />
-                <br />
-                <br />
-                <label for="salón">Salón</label>
-                <input name="lugar" type="radio" value="salón" />
-                <label for="terraza">Terraza</label>
-                <input name="lugar" type="radio" value="terraza" />
-                <br />
-                <br />
-                <input name="submitInfo" type="submit" value="Enviar" />
-                <input name="resetInfo" type="reset" value="Borrar" />
-                <br />
-                <br />
-              </form>
-            </td>
-            <td width="50"></td>
-            <!--Columna de margen, pero sería más óptimo usar grids de Bootstrap-->
-            <td align="left">
-              <img
-                src="../img/reservas.jpg"
-                width="300"
-                heigth="50"
-                alt="Foto Restaurante Ikigai Reservas"
-              />
-            </td>
-          </tr>
-        </table>
-        <br />
-        <br />
-        <hr size="6px" color="black" />
-        <footer>
-          <br />
+    <div class="container-fluid">
+      <div class="row">
+        <div id="reservas1" class="col-xs-12 col-sm-12 col-md-12">
+          <a name="inicio"></a>
+          <h1>Restaurante Ikigai</h1>
           <div>
-            <a href="./avisolegal.html" target="_blank">Aviso Legal</a
-            >&nbsp;&nbsp;
-            <a href="./cookies.html" target="_blank">Política de cookies</a>
+            <h3>
+              <a class="menu" href="../index.html">Home</a
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="menu" href="./menu.html">Menu</a
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="menu" href="./reserva.html">Reservas</a
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="menu" href="./evento.html">Eventos</a
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="menu" href="./contacto.html">Contacto</a>
+            </h3>
           </div>
-          <br />
-          <span
-            >Copyright ©2023, GRUPO IKIGAI. Todos los derechos reservados.</span
-          >
-        </footer>
+        </div>
+        <div id="reservas2" class="col-xs-12 col-sm-6 col-md-6">
+          <form>
+            <label for="nombre">Nombre: </label>
+            <input name="nombre" type="text" />
+            <br />
+            <br />
+            <label for="apellido">Apellido: </label>
+            <input name="apellido" type="text" />
+            <br />
+            <br />
+
+            <label for="lang">Fecha</label>
+            <select name="dia">
+              <option>día</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>
+              <option>22</option>
+              <option>23</option>
+              <option>24</option>
+              <option>25</option>
+              <option>26</option>
+              <option>27</option>
+              <option>28</option>
+              <option>29</option>
+              <option>30</option>
+              <option>31</option>
+            </select>
+
+            <select name="mes">
+              <option>mes</option>
+              <option>enero</option>
+              <option>febrero</option>
+              <option>marzo</option>
+              <option>abril</option>
+              <option>mayo</option>
+              <option>junio</option>
+              <option>julio</option>
+              <option>agosto</option>
+              <option>septiembre</option>
+              <option>octubre</option>
+              <option>noviembre</option>
+              <option>diciembre</option>
+            </select>
+
+            <select name="hora">
+              <option>hora</option>
+              <option>13:00</option>
+              <option>13:15</option>
+              <option>13:30</option>
+              <option>13:45</option>
+              <option>14:00</option>
+              <option>14:15</option>
+              <option>14:30</option>
+              <option>14:45</option>
+              <option>15:00</option>
+              <option>20:30</option>
+              <option>20:45</option>
+              <option>21:00</option>
+              <option>21:15</option>
+              <option>21:30</option>
+              <option>21:45</option>
+              <option>22:00</option>
+              <option>22:15</option>
+              <option>22:30</option>
+            </select>
+            <br />
+            <br />
+            <label for="nPersonas">N. comensales: </label>
+            <input name="nPersonas" type="number" />
+            <br />
+            <br />
+            <label for="nTarjeta">N. Tarjeta: </label>
+            <input name="ntarjeta" type="number" />
+            <br />
+            <br />
+            <textarea name="comentario" cols="25" rows="5">
+ Comentario...</textarea
+            >
+            <br />
+            <br />
+            <label for="parking">Parking</label>
+            <input name="parking" type="checkbox" value="conparking" />
+            <br />
+            <br />
+            <label for="salón">Salón</label>
+            <input name="lugar" type="radio" value="salón" />
+            <label for="terraza">Terraza</label>
+            <input name="lugar" type="radio" value="terraza" />
+            <br />
+            <br />
+            <input
+              class="boton"
+              name="submitInfo"
+              type="submit"
+              value="Enviar"
+            />
+            <input class="boton" name="resetInfo" type="reset" value="Borrar" />
+            <br />
+            <br />
+          </form>
+        </div>
+        <div id="reservas3" class="col-xs-12 col-sm-6 col-md-6">
+          <img
+            src="../img/reservas.jpg"
+            width="322"
+            alt="Foto Restaurante Ikigai Reservas"
+          />
+        </div>
+        <div id="reservas4" class="col-xs-12 col-sm-12 col-md-12">
+          <footer>
+            <hr />
+            <br />
+            <a href="../html/avisolegal.html" target="_blank">Aviso Legal</a
+            >&nbsp;&nbsp;
+            <a href="../html/cookies.html" target="_blank"
+              >Política de cookies</a
+            >
+            <br />
+            <span
+              >Copyright ©2023, GRUPO IKIGAI. Todos los derechos
+              reservados.</span
+            >
+          </footer>
+        </div>
       </div>
     </div>
   </body>

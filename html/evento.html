@@ -16,116 +16,99 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="../css/styles.css" type="text/css" />
     <title>Eventos</title>
   </head>
   <body>
-    <div align="middle">
-      <br />
-      <h1>Restaurante Ikigai</h1>
-      <img
-        src="../img/ikigaikanjis.png"
-        alt="Ikigai kanjis"
-        width="80"
-        heigth="5"
-      />
-      <div>
-        <h3>
-          <a href="../index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="./menu.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="./reserva.html">Reservas</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="./evento.html">Eventos</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="./contacto.html">Contacto</a>
-        </h3>
-      </div>
-      <hr size="6px" color="black" />
-      <br />
-      <table>
-        <tr>
-          <td width="200">
-            <!--Columna vacía para crear margen a la izquierda-->
-          </td>
-          <td align="center">
-            <h2>¿Te gustaría celebrar una ocasión especial en Ikigai?</h2>
-            <p>
-              Si estás buscando un lugar original para celebrar tu cumpleaños,
-              aniversario, reunión de negocios o cualquier otra ocasión
-              especial, ¡no busques más! En Ikigai, ofrecemos menús especiales
-              para eventos y celebraciones,
-              <u
-                >diseñados para satisfacer las necesidades y gustos de nuestros
-                clientes</u
-              >.
-            </p>
-            <p>
-              Nuestro <b>ambiente elegante y acogedor</b> es perfecto para
-              celebrar cualquier ocasión especial, y nuestro servicio al cliente
-              excepcional asegura que tu evento sea todo un éxito. Nos
-              aseguraremos de que todo esté listo para que tú y tus invitados
-              disfruten de una experiencia culinaria auténtica y memorable.
-            </p>
-            <br />
-          </td>
-          <td width="200">
-            <!--Columna vacía para crear margen a la derecha-->
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>
-            <table align="center">
-              <tr>
-                <td align="left" width="500">
-                  <form>
-                    <label for="nombre">Nombre: </label>
-                    <input name="nombre" type="text" />
-                    <br />
-                    <br />
-                    <label for="telefono">Teléfono: </label>
-                    <input name="telefono" type="number" />
-                    <br />
-                    <br />
-                    <label for="email">Email: </label>
-                    <input name="email" type="text" />
-                    <br />
-                    <br />
-                    <textarea name="comentario" cols="50" rows="7">
-Comentario...</textarea
-                    >
-                    <br />
-                    <br />
-                    <input name="submitInfo" type="submit" value="Enviar" />
-                    <input name="resetInfo" type="reset" value="Borrar" />
-                  </form>
-                </td>
-                <td align="center">
-                  <img
-                    src="../img/eventos.jpg"
-                    alt="Eventos Restaurante Ikigai"
-                    width="500"
-                  />
-                </td>
-              </tr>
-            </table>
-          </td>
-          <td></td>
-        </tr>
-      </table>
-      <br />
-      <br />
-      <hr size="6px" color="black" />
-      <footer>
-        <br />
-        <div>
-          <a href="./avisolegal.html" target="_blank">Aviso Legal</a
-          >&nbsp;&nbsp;
-          <a href="./cookies.html" target="_blank">Política de cookies</a>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="eventos1" class="col-xs-12 col-sm-12 col-md-12">
+          <a name="inicio"></a>
+          <h1>Restaurante Ikigai</h1>
+          <div>
+            <h3>
+              <a class="menu" href="../index.html">Home</a
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="menu" href="./menu.html">Menu</a
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="menu" href="./reserva.html">Reservas</a
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="menu" href="./evento.html">Eventos</a
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="menu" href="./contacto.html">Contacto</a>
+            </h3>
+          </div>
         </div>
-        <br />
-        <span
-          >Copyright ©2023, GRUPO IKIGAI. Todos los derechos reservados.</span
-        >
-      </footer>
+        <div id="eventos2" class="col-xs-12 col-sm-12 col-md-12">
+          <h2>¿Te gustaría celebrar una ocasión especial en Ikigai?</h2>
+          <p>
+            Si estás buscando un lugar original para celebrar tu cumpleaños,
+            aniversario, reunión de negocios o cualquier otra ocasión especial,
+            ¡no busques más! En Ikigai, ofrecemos menús especiales para eventos
+            y celebraciones,
+            <u
+              >diseñados para satisfacer las necesidades y gustos de nuestros
+              clientes</u
+            >.
+          </p>
+          <p>
+            Nuestro <b>ambiente elegante y acogedor</b> es perfecto para
+            celebrar cualquier ocasión especial, y nuestro servicio al cliente
+            excepcional asegura que tu evento sea todo un éxito. Nos
+            aseguraremos de que todo esté listo para que tú y tus invitados
+            disfruten de una experiencia culinaria auténtica y memorable.
+          </p>
+        </div>
+        <div id="eventos3" class="col-xs-12 col-sm-6 col-md-6">
+          <form>
+            <label for="nombre">Nombre: </label>
+            <input name="nombre" type="text" />
+            <br />
+            <br />
+            <label for="telefono">Teléfono: </label>
+            <input name="telefono" type="number" />
+            <br />
+            <br />
+            <label for="email">Email: </label>
+            <input name="email" type="text" />
+            <br />
+            <br />
+            <textarea name="comentario" cols="50" rows="7"></textarea>
+            <br />
+            <br />
+            <input
+              class="boton"
+              name="submitInfo"
+              type="submit"
+              value="Enviar"
+            />
+            <input class="boton" name="resetInfo" type="reset" value="Borrar" />
+          </form>
+        </div>
+        <div id="eventos4" class="col-xs-12 col-sm-6 col-md-6">
+          <img
+            src="../img/eventos.jpg"
+            alt="Eventos Restaurante Ikigai"
+            width="500"
+          />
+        </div>
+        <div id="eventos5" class="col-xs-12 col-sm-12 col-md-12">
+          <footer>
+            <hr />
+            <br />
+            <a href="../html/avisolegal.html" target="_blank">Aviso Legal</a
+            >&nbsp;&nbsp;
+            <a href="../html/cookies.html" target="_blank"
+              >Política de cookies</a
+            >
+            <br />
+            <span
+              >Copyright ©2023, GRUPO IKIGAI. Todos los derechos
+              reservados.</span
+            >
+          </footer>
+        </div>
+      </div>
     </div>
   </body>
 </html>

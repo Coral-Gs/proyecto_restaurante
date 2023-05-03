@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
 body {
-  background-image: url("../img/fondo3.jpg");
+  background-image: url("../img/fondo5.jpg");
 }
 
 h1 {
@@ -14,7 +14,6 @@ h1 {
 
 h3 {
   font-size: 170%;
-  margin: 0% 2% 2% 2%;
 }
 
 p {
@@ -28,12 +27,11 @@ p {
 table {
   background-color: #ffffff;
   border-collapse: collapse;
-  border: dotted 1px #4b3c24;
-  font-size: 120%;
-  margin: auto;
-  width: 80%;
   border-radius: 1em;
+  font-size: 110%;
+  width: 85%;
   overflow: hidden;
+  margin: auto;
 }
 
 td,
@@ -49,6 +47,10 @@ li {
   text-align: left;
 }
 
+img {
+  border-radius: 0.5em;
+}
+
 hr {
   height: 5px;
   background-color: #4b3c24;
@@ -58,11 +60,18 @@ footer {
   margin: 10px;
 }
 
+input,
+textarea {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 90%;
+}
+
 .container-fluid {
   text-align: center;
 }
 .menu {
   color: #d8670d;
+  margin: 0 0 20px 0;
 }
 .menu:hover {
   color: #4b3c24;
@@ -76,11 +85,33 @@ footer {
   color: #ffffff;
   font-family: "Dancing Script", cursive;
   font-size: 120%;
-  padding: 20px;
+  padding: 15px;
 }
 
-.img-menu {
+.img-menu-dxa {
   margin: 1%;
+  border-radius: 8em 0em;
+}
+
+.img-menu-izq {
+  margin: 1%;
+  border-radius: 5em 5em;
+}
+
+.boton {
+  background-color: #d8670d;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  font-size: 120%;
+  opacity: 1;
+  padding: 7px 15px;
+  transition: 0.3s;
+}
+.boton:hover {
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
 }
 
 #imgkanji {
@@ -90,82 +121,82 @@ footer {
 #fotoprincipal {
   margin: 1% 0 0 0;
 }
-#boton-volver {
-  background-color: #d8670d;
-  border-color: #d8670d;
-  font-size: 120%;
-  opacity: 1;
-  transition: 0.3s;
-}
-#boton-volver:hover {
-  opacity: 0.6;
-}
 
-#menu2,
-#menu3 {
-  margin: 10px;
+#eventos2 {
   text-align: center;
 }
 
-@media screen and (min-width: 991px) {
-  #uno {
-    background-color: lawngreen;
-  }
-  #dos {
-    background-color: red;
-  }
-  #tres {
-    background-color: red;
-  }
-  #cuatro {
-    background-color: red;
-  }
-  #cinco {
-    background-color: yellow;
-  }
-  #seis {
-    background-color: yellow;
-  }
+#eventos3 {
+  margin: 60px 0 60px 0;
+  text-align: left;
 }
 
-@media screen and (max-width: 991px) {
-  #uno {
-    background-color: turquoise;
-  }
-  #dos {
-    background-color: red;
-  }
-  #tres {
-    background-color: red;
-  }
-  #cuatro {
-    background-color: lawngreen;
-  }
-  #cinco {
-    background-color: yellow;
-  }
-  #seis {
-    background-color: yellow;
-  }
+#menu3 {
+  margin: 10px 0px 10px 0px;
+  text-align: center;
 }
 
-@media screen and (max-width: 767.98px) {
-  #uno {
-    background-color: salmon;
+#menu4 {
+  margin: 20px 0 0 0;
+}
+
+#reservas1,
+#menu1,
+#contacto1,
+#eventos1 {
+  margin: 0 0 25px 0;
+}
+
+@media screen and (max-width: 780.98px) {
+  #reservas2 {
+    margin: 20px 0px 10px 100px;
+    text-align: left;
   }
-  #dos {
-    background-color: red;
+  #reservas3 {
+    margin: 20px 0px 10px 0px;
+    text-align: center;
   }
-  #tres {
-    background-color: turquoise;
+  #eventos3 {
+    margin: 0 auto 25px auto;
+    text-align: center;
   }
-  #cuatro {
-    background-color: red;
+  #eventos4 {
+    margin: auto;
+    text-align: center;
   }
-  #cinco {
-    background-color: yellow;
+
+  #contacto2 {
+    margin: 0 auto 25px auto;
+    text-align: center;
   }
-  #seis {
-    background-color: yellow;
+  #contacto3 {
+    margin: auto;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 781px) {
+  #reservas2 {
+    text-align: right;
+  }
+  #reservas3 {
+    text-align: left;
+  }
+  form {
+    text-align: right;
+  }
+  #eventos3 {
+    margin: 0 auto 25px auto;
+  }
+  #eventos4 {
+    margin: auto;
+    text-align: left;
+  }
+  #contacto2 {
+    margin: 0 auto 25px auto;
+    padding: auto auto auto 100px;
+  }
+  #contacto3 {
+    margin: auto;
+    text-align: left;
   }
 }
